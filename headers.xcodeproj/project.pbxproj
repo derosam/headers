@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBBAD93627A4C42C0029D6BA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EBBAD93527A4C42C0029D6BA /* main.c */; };
+		EBBAD94427A4C51C0029D6BA /* principal.c in Sources */ = {isa = PBXBuildFile; fileRef = EBBAD94327A4C51C0029D6BA /* principal.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,12 @@
 
 /* Begin PBXFileReference section */
 		EBBAD93227A4C42C0029D6BA /* headers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = headers; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBBAD93527A4C42C0029D6BA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EBBAD93E27A4C4680029D6BA /* suma.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = suma.h; sourceTree = "<group>"; };
+		EBBAD93F27A4C4820029D6BA /* resta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resta.h; sourceTree = "<group>"; };
+		EBBAD94027A4C49F0029D6BA /* division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = division.h; sourceTree = "<group>"; };
+		EBBAD94127A4C4B10029D6BA /* multiplicacion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiplicacion.h; sourceTree = "<group>"; };
+		EBBAD94227A4C4CC0029D6BA /* funciones.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = funciones.h; sourceTree = "<group>"; };
+		EBBAD94327A4C51C0029D6BA /* principal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = principal.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,12 @@
 		EBBAD93427A4C42C0029D6BA /* headers */ = {
 			isa = PBXGroup;
 			children = (
-				EBBAD93527A4C42C0029D6BA /* main.c */,
+				EBBAD93E27A4C4680029D6BA /* suma.h */,
+				EBBAD93F27A4C4820029D6BA /* resta.h */,
+				EBBAD94027A4C49F0029D6BA /* division.h */,
+				EBBAD94127A4C4B10029D6BA /* multiplicacion.h */,
+				EBBAD94227A4C4CC0029D6BA /* funciones.h */,
+				EBBAD94327A4C51C0029D6BA /* principal.c */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -118,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBBAD93627A4C42C0029D6BA /* main.c in Sources */,
+				EBBAD94427A4C51C0029D6BA /* principal.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
